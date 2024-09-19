@@ -1,0 +1,37 @@
+/* BottomNav.css */
+.bottom-nav {
+    position: fixed;
+    bottom: 25px; /* Adjust as needed to position just above the bottom */
+    left: 27%; /* Center horizontally, adjust for 50% width */
+    width:45%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.484); /* Optional: Add a shadow for visual separation */
+  }
+  
+  .nav-button {
+    background-color: #ffffff;
+    color: #333333bd;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  @media only screen and (max-width: 730px) {
+ .bottom-nav{
+    display: none;
+ }
+  }
+  
+
+  @media only screen and (max-width: 430px) {
+  .bottom-nav{
+    width:45%;
+  }
+
+  }

@@ -1,0 +1,279 @@
+
+
+.page{
+    width: 100%;
+    min-height: 100vh; 
+    margin-top: 0;
+}
+
+.page-dark{
+    width: 100%;
+    min-height: 100vh; 
+    margin-top: 0;
+    background-color: #0f161b;
+    color: #f0f0f0;
+}
+
+.page,.page-dark{
+    transition: background-color 0.3s ease;
+}
+
+
+.det1{
+    height: auto;
+    width: 58%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-top: 0;
+   
+}
+
+.d1 {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d1 img{
+    width: 50vw;
+    height: 60vh;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.det1 h1{
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.cont h3{
+    font-weight: lighter;
+    font-size: 25px;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.619);
+}
+
+.cont-dark h3{
+    font-weight: lighter;
+    font-size: 25px;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: sans-serif;
+    color: #f0f0f0;
+}
+
+
+.clip{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.clip h3{
+    font-style: oblique;
+    font-size: 25px;
+    color: rgba(128, 128, 128, 0.769);
+}
+
+.clip button{
+    border-radius: 5px;
+    color: #f0f0f0;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.dot{
+    color: #0f161b;
+    }
+    
+    .dot-dark{
+    color: #f0f0f0;
+    }
+
+@media only screen and (max-width: 1340px) {
+    .det1{
+        height: auto;
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-top: 0;
+    }
+
+}
+
+@media only screen and (max-width: 990px) {
+    .d1 img{
+        width: 60vw ;
+        height: 60vh;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .det1{
+        height: auto;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-top: 0;
+    }
+
+    .cont h3{
+        font-weight: lighter;
+        font-size: 18px;
+        line-height: 30px;
+        max-width: 90%;
+        margin: 0 auto;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        font-family: sans-serif;
+    }
+    .cont-dark h3{
+        font-weight: lighter;
+        font-size: 18px;
+        line-height: 30px;
+        max-width: 90%;
+        margin: 0 auto;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        font-family: sans-serif;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .d1 img{
+        width: 68vw ;
+        height: 60vh;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .det1 h1{
+        max-width: 90%;
+        margin: 0 auto;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+
+    .det1{
+        height: auto;
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-top: 0;
+    }
+
+   
+    
+
+}
+
+
+@media only screen and (max-width: 700px) {
+.clip h3{
+    font-size: 15px;
+    margin-top: 5%;
+}
+
+.det1{
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-top: 0;
+}
+.clip{margin-top: 10%;}
+
+
+
+}
+
+@media only screen and (max-width: 620px) {
+    .d1 img{
+        width: 78vw ;
+        height: 60vh;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .d1 img{
+        width: 75vw ;
+        height: 40vh;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .d1 {
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cont h3{
+        font-weight: lighter;
+        max-width: 90%;
+        margin: 0 auto;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        font-family: sans-serif;
+        line-height: 30px;
+    }
+
+    .cont-dark h3{
+        font-weight: lighter;
+        max-width: 90%;
+        margin: 0 auto;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        font-family: sans-serif;
+        line-height: 30px;
+    }
+
+    .clip{margin-top: 13%;}
+}
+
+@media only screen and (max-width: 470px) {
+    .d1 img{
+        width: 75vw ;
+        height: 30vh;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .d1 {
+        height: 35vh;
+    }
+    .clip{margin-top: 19%;}
+   
+
+}
+
+
+
+
+@media only screen and (max-width: 400px) {
+    .clip{margin-top: 20%;}
+}
+
+

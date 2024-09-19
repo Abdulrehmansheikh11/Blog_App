@@ -1,0 +1,255 @@
+/* Basic styling for the navigation bar */
+.navbar {
+  background-color: #0f161b;
+  overflow: hidden;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Container for the list items */
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Individual list items */
+.nav-item {
+  padding: 14px 20px;
+}
+
+/* Links within the list items */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Change color on hover */
+.nav-link:hover {
+  background-color: #575757;
+  color: white;
+  border-radius: 4px;
+}
+
+.bar {
+  display: none;
+  color: #f0f0f0;
+}
+
+
+
+.mbl-menu-icon {
+  display: none;
+  background: none;
+  border: none;
+  color: #f0f0f0;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+
+
+.modes .last {
+  font-size: 20px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.modes {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+
+  .pos {
+    position: fixed;
+    width: 97%;
+    top: 0;
+  }
+
+  .mode {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .modes {
+    display: block;
+  }
+
+  .bar {
+    display: block;
+    color: #f0f0f0;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+
+  .mbl-menu-icon {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #000000d5;
+    position: absolute;
+    top: 60px;
+    right: 0.5rem;
+    padding: 10px 20px;
+    position: fixed;
+    z-index: 1;
+    width: 310px;
+    height: 80vh;
+   top: 4.2rem;
+   margin-left: 2%;
+   z-index: 1;
+  }
+
+
+  ul li {
+    display: flex;
+    justify-content: center;
+    /* Ensures text is centered horizontally */
+    align-items: center;
+    /* Ensures text is centered vertically */
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    width: 30vw;
+    margin: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition for hover effects */
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 650px) {
+
+  .ul li {
+    display: flex;
+    justify-content: center;
+    /* Ensures text is centered horizontally */
+    align-items: center;
+    /* Ensures text is centered vertically */
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    width: 40vw;
+    margin: 20px;
+    border: 1px solid #f0f0f0;
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition for hover effects */
+  }
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+  .pos{
+    z-index: 1;
+  }
+  .navbar{
+    z-index: 1;
+  }
+
+  .ul li {
+    display: flex;
+    justify-content: center;
+    /* Ensures text is centered horizontally */
+    align-items: center;
+    /* Ensures text is centered vertically */
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    width: 50vw;
+    margin: 20px;
+    border: 1px solid #f0f0f0;
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition for hover effects */
+  }
+
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #000000d5;
+    position: absolute;
+    top: 60px;
+    right: 0.05rem;
+    padding: 10px 20px;
+    position: fixed;
+    z-index: 1;
+    width: 310px;
+    height: 80vh;
+   top: 4.2rem;
+  }
+  .mobile-menu{
+    width: 250px;
+  }
+
+  .pos {
+    position: fixed;
+    width: 97%;
+    top: 0;
+  }
+}
+
+
+@media only screen and (max-width: 420px) {
+.pos {
+  position: fixed;
+  width: 96%;
+  top: 0;
+}
+
+}
+
+
+@media only screen and (max-width: 435px) {
+  .mobile-menu{
+    margin-right: 2%;
+  }
+  .pos {
+    position: fixed;
+    width: 96%;
+    top: 0;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+.mobile-menu{
+  width: 250px;
+}
+
+}
+
+@media only screen and (max-width: 330px) {
+
+  .mobile-menu{
+    width: 200px;
+  }
+}

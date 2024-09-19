@@ -1,0 +1,44 @@
+.lists {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    max-width: 80%;
+    flex-wrap: wrap;
+  }
+  
+  .lists .Page-item {
+    padding: 5px;
+    margin: 0 3px;
+    border: 1px solid black;
+    list-style: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    flex: 1; /* Allow items to grow equally */
+    text-align: center; /* Center the text */
+  }
+  
+  .lists .Page-item-dark {
+    background-color: #f0f0f0;
+    border-color: rgba(128, 128, 128, 0.487);
+  }
+  
+  .lists .Page-item a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px 10px;
+    font-family: sans-serif;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .lists {
+      flex-direction: column; /* Stack items vertically on small screens */
+      align-items: center; /* Center items vertically */
+    }
+    
+    .lists .Page-item {
+      margin-right: 0; /* Remove right margin for better spacing on small screens */
+    }
+  }
+  

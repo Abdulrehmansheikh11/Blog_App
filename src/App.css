@@ -1,0 +1,44 @@
+.anim{
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.anim-3{
+  height: 60vh;
+display: flex;
+align-items: center;
+}
+.anim-2{
+  width: 50%;
+  margin: 0 auto;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
+#add{
+  background-color: #f0f0f0;
+  padding: 40px;
+}
+
+
+
+
+
+.anim p{
+ color: rgba(0, 0, 0, 0.679);
+ font-size: 30px;
+ font-family: sans-serif;
+margin-left: 20px;
+ padding: 0%;
+ max-width: 70%;
+}
+
+.sec-1{
+
+width: 50%;
+}

@@ -1,0 +1,76 @@
+.forms-dark{
+    background-color: #0f161b;
+    color: #f0f0f0;
+    height: 100vh;
+}
+.forms{
+  height: 98vh;
+ 
+}
+
+.boxy{
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.contt {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    height: 40vh;
+    box-sizing: border-box;
+    resize: none; /* Prevents the textarea from being resized */
+    overflow: auto; /* Ensures overflow content is scrollable */
+  }
+  
+
+.inp{
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 970px) {
+.boxy{
+max-width: 600px;
+
+}
+
+}
+
+@media only screen and (max-width: 700px) {
+.boxy{
+    margin-top: 10%;
+}
+
+}
+
+@media only screen and (max-width: 730px) {
+    
+        .contt{
+            width: 90%;
+            padding: 10px;
+            font-size: 16px;
+            height: 40vh;
+        }    
+
+        .inp{
+           width: 85%;
+        }
+        
+}
+
+@media only screen and (max-width: 630px) {
+.forms-dark{
+    width: 101%;
+}
+}
+
+@media only screen and (max-width: 430px) {
+.forms-dark{
+    width: 105%;
+}
+
+}

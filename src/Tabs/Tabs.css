@@ -1,0 +1,342 @@
+.tab-content {
+    padding: 20px;
+}
+
+.list {
+    display: flex;
+
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.custom-tablist {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 46vw;
+    background-color: rgba(128, 128, 128, 0.114);
+    border-radius: 10px;
+    font-family: sans-serif;
+    padding: 0;
+}
+
+.custom-tab {
+    list-style: none;
+    padding: 10px;
+    padding-left: 0;
+    margin: 5px;
+    margin-left: 0;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 6px;
+    outline: none;
+}
+
+.react-tabs__tab--selected {
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.256);
+    transition: 0.4s;
+}
+
+
+/* Tabs.css */
+.custom-tabpanel {
+    height: auto;
+    width: 46vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* Optional: Add a shadow for visual separation */
+    border-radius: 8px;
+}
+
+/* Hide inactive TabPanels */
+.custom-tabpanel:not(.react-tabs__tab-panel--selected) {
+    display: none;
+}
+
+.pnl {
+    display: flex;
+    flex-direction: column;
+}
+
+.pnl img {
+    width: 20vw;
+    margin-top: 10%;
+}
+
+.pnl h3 {
+    font-family: sans-serif;
+    color: rgba(128, 128, 128, 0.568);
+}
+
+.pnl button {
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+    margin: 20px;
+    margin-bottom: 40px;
+    background-color: #1B2631;
+    color: #f0f0f0;
+    border-radius: 5px;
+}
+
+
+com-list
+
+
+/*.............comment box..............*/
+
+/* CommentSection.css */
+.comment-section {
+    display: flex;
+    align-items: flex-start;
+    /* Align items at the top */
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    margin-right: 10px;
+}
+
+.profile-image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 0;
+}
+
+.comment-input {
+    flex: 1;
+    /* Take remaining space */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8%;
+}
+
+.kips {
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    margin-top: 8%;
+}
+
+
+
+
+.comment-input textarea {
+    flex: 1;
+    /* Take remaining space */
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    /* Disable textarea resizing */
+    min-height: 50px;
+    /* Minimum height */
+    max-height: 200px;
+    /* Maximum height */
+    overflow-y: auto;
+    /* Add scroll if content exceeds max-height */
+    width: 20vw;
+}
+
+.comment-input textarea {
+    scrollbar-width: none;
+    /* Firefox */
+    outline: none;
+}
+
+
+
+.comment-input button {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.404);
+    padding: 8px 16px;
+    background-color: #1B2631;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 30%;
+    margin-top: 20px;
+    transition: ease 0.5s;
+}
+
+.comment-input button:hover {
+    background-color: #ffff;
+    color: #1B2631;
+}
+
+
+/*.........................comment scetion................*/
+.c-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+
+.c-section {
+    scrollbar-width: none; 
+}
+
+
+.comment {
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 0;
+    padding-top: 0;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.131);
+    border-radius: 5px;
+    margin-bottom: 4%;
+}
+
+.comment img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+
+.comment h1 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-family: Bradley Hand, cursive;
+    color: #1b2631dc;
+}
+
+.comment h3 {
+    padding-top: 0;
+    margin-top: 8px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgba(128, 128, 128, 0.883);
+}
+
+.com-list {
+    width: 95%;
+   margin-top: 5%;
+}
+
+
+
+@media only screen and (max-width: 1340px) {
+
+    .custom-tablist {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 65vw;
+        background-color: rgba(128, 128, 128, 0.114);
+        border-radius: 10px;
+        font-family: sans-serif;
+        padding: 0;
+    }
+    .custom-tabpanel {
+        height: auto;
+        width: 65vmax;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* Optional: Add a shadow for visual separation */
+        border-radius: 8px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 575px) {
+
+    .custom-tabpanel {
+        height: auto;
+        width: 55vmax;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* Optional: Add a shadow for visual separation */
+        border-radius: 8px;
+    }
+
+}
+ 
+@media only screen and (max-width: 475px) {
+
+    .comment h3 {
+        padding-top: 0;
+        margin-top: 8px;
+        font-size: 3vw;
+        font-family: sans-serif;
+        font-weight: lighter;
+        color: rgba(128, 128, 128, 0.883);
+    }
+
+    
+    .custom-tabpanel {
+        height: auto;
+        width: 50vmax;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* Optional: Add a shadow for visual separation */
+        border-radius: 8px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .custom-tabpanel {
+        height: auto;
+        width: 45vmax;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* Optional: Add a shadow for visual separation */
+        border-radius: 8px;
+    }
+    .comment h3 {
+        padding-top: 0;
+        margin-top: 8px;
+        font-size: 3.5vw;
+        font-family: sans-serif;
+        font-weight: lighter;
+        color: rgba(128, 128, 128, 0.883);
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .custom-tabpanel {
+        height: auto;
+        width: 40vmax;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* Optional: Add a shadow for visual separation */
+        border-radius: 4px;
+        z-index: 2;
+    }
+}

@@ -1,0 +1,16 @@
+.create{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    padding: 10px;
+    background-color: #1b2631ea;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.create:active {
+    color: #1B2631;
+    background-color: #fff;
+}

@@ -1,0 +1,369 @@
+.parent{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://zippypixels.com/wp-content/uploads/2015/02/opened-newspaper-moukup-hand-vol3-8-824x542.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+   
+}
+
+.parent-dark{
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("https://zippypixels.com/wp-content/uploads/2015/02/opened-newspaper-moukup-hand-vol3-8-824x542.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+ 
+}
+
+
+
+
+
+
+.parent::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.176); /* Adjust opacity (the last value) to control darkness */
+  }
+.form{
+    background: transparent;
+    backdrop-filter: blur(20px);
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
+   
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.348); 
+}
+
+
+
+
+
+
+.form input{
+    padding: 10px;
+    width: 400px;
+    height: 18px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 5px;
+   border: none;
+}
+
+ .form input:focus {
+    outline: none; /* Remove the default focus outline */
+  
+  }
+
+.form button{
+  
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1B2631;
+    color: white;
+    font-size: 15px;
+    width: 425px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.form h1{
+    font-family: sans-serif;
+    text-align: center;
+    color: #1B2631;
+}
+.form p{
+    margin-left: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.brands{
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #1B2631;
+}
+
+
+.line {
+    border-top: 1px solid black; /* You can adjust the color, width, and style as needed */
+    margin: 20px 0; /* Optional: Add margin for spacing */
+    font-family: sans-serif;
+}
+
+
+
+.link{
+  color: #1B2631;
+    font-size: 19px;
+}
+
+
+p{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+
+.book-list {
+    width: 100%;
+    max-width: 600px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.278);
+    
+  }
+  
+  .book-list h2 {
+    margin-bottom: 20px;
+  }
+  
+  .book-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .book-list li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  }
+  
+  .book-list li strong {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
+  
+  .update-button, .delete-button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .update-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .update-button:hover {
+    background-color: #218838;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+
+
+
+
+  @media only screen and (max-width: 1099px) {
+    .form{
+        width: 35vw;
+        height: 50vh;
+        background: transparent;
+        backdrop-filter: blur(20px);
+        display: inline-flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.348); 
+    }
+
+
+    .form input{
+        padding: 10px;
+        width: 32vw;
+        height: 15px;
+        font-size: 20px;
+        margin: 10px;
+        border-radius: 5px;
+       border: none;
+    }
+
+    .form button{
+  
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #1B2631;
+        color: white;
+        font-size: 15px;
+        width: 33vw;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+
+    .cross:hover{
+        background-color: #1B2631;
+        color: #fff;
+      }
+}
+
+@media only screen and (max-width: 930px) {
+
+    .form{
+        width: 45vw;
+        height: 50vh ;
+        background: transparent;
+        backdrop-filter: blur(20px);
+        display: inline-flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.348); 
+    }
+
+
+    .form input{
+        padding: 10px;
+        width: 40vw;
+        height: 15px;
+        font-size: 20px;
+        margin: 10px;
+        border-radius: 5px;
+       border: none;
+    }
+
+    .form button{
+  
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #1B2631;
+        color: white;
+        font-size: 15px;
+        width: 42vw;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+
+   .parent{
+  margin-top: 10%;
+  z-index: -1;
+  margin-right: 3px;
+   }
+
+    .form{
+        width: 55vw;
+        height: 50vh;
+        background: transparent;
+        backdrop-filter: blur(20px);
+        display: inline-flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.348); 
+    }
+
+
+    .form input{
+        padding: 10px;
+        width: 50vw;
+        height: 15px;
+        font-size: 20px;
+        margin: 10px;
+        border-radius: 5px;
+       border: none;
+    }
+
+    .form button{
+  
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #1B2631;
+        color: white;
+        font-size: 15px;
+        width: 52vw;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+
+}
+
+@media only screen and (max-width: 430px) {
+
+    .form{
+        width: 75vw;
+        height:  auto;
+        background: transparent;
+        backdrop-filter: blur(20px);
+        display: inline-flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.348); 
+    }
+
+
+    .form input{
+        padding: 10px;
+        width: 65vw;
+        height: 15px;
+        font-size: 20px;
+        margin: 10px;
+        border-radius: 5px;
+       border: none;
+    }
+
+    .form button{
+  
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #1B2631;
+        color: white;
+        font-size: 15px;
+        width: 70vw;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .parent{
+      margin-top: 15%;
+      z-index: -1;
+      margin-right: 25px;
+       }
+
+
+}
